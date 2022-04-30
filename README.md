@@ -27,13 +27,15 @@ One of the most effective tools for brute-forcing web directories is gobuster. I
 I started by connecting to /island on the server, which led me to this page. The code word "vigilante" was in white text.
 ![image](https://media.github.tamu.edu/user/17583/files/e7e09400-c84b-11ec-9c25-ec673e1ded9d)
 
-I used gobuster again, which gave me another result:
+I used gobuster again on /island, which returned a value of /2100:
 ![image](https://media.github.tamu.edu/user/17583/files/c97a9880-c84b-11ec-8cc5-2bd171ccc58e)
 
-Since this is a 4-letter directory, this is our first flag. However, the website itself doesn't seem to offer any useful information:
+Since this is a 4-letter directory, I entered it as the first flag.
+
+However, the page itself doesn't seem to offer any useful information:
 ![image](https://media.github.tamu.edu/user/17583/files/a05a0800-c84b-11ec-8f70-68b69b549f39)
 
-Another try with gobuster doesn't yield any results either.
+Gobuster doesn't yield any results either.
 ![image](https://media.github.tamu.edu/user/17583/files/92f74a80-c858-11ec-9f1a-c061b5acf938)
 
 I checked the HTML source code, which contained this message:
