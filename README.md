@@ -39,5 +39,15 @@ FTP
 
 ![image](https://media.github.tamu.edu/user/17583/files/304f8000-c853-11ec-9d6a-15f305742a61)
 
+![image](https://media.github.tamu.edu/user/17583/files/478e6d80-c853-11ec-8d75-53ef58c346b2)
+Even though Shado was clearly the correct password file, I was not able to get in as vigilante. Since there were 2 users, I tried logging in as the other user.
+![image](https://media.github.tamu.edu/user/17583/files/0185d980-c854-11ec-8407-20255418b4e7)
+(Omitted user.txt)
+
+![image](https://media.github.tamu.edu/user/17583/files/8f61c480-c854-11ec-8ad6-1f2289c478a0)
+Pkexec seems to be a vulnerability that allows users to run commands as root without sudo - which means not needing a password. A quick look at the manual and 
+![image](https://media.github.tamu.edu/user/17583/files/36def700-c855-11ec-9ccb-d06024f8c31f)
+(Flag output omitted. Try out this challenge for yourself at www.tryhackme.com/rooms/lian_yu!)
+
 
 
