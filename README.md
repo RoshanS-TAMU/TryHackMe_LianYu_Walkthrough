@@ -8,6 +8,7 @@ The obejctives for this room were as follows:
 4. what is the file name with SSH password?
 5. user.txt
 6. root.txt
+_______________________________________________________________________________________
 
 I start as always with scanning and enumeration:
 ```
@@ -81,6 +82,7 @@ Pkexec seems to be a vulnerability that allows users to run commands as root wit
 
 ![image](https://media.github.tamu.edu/user/17583/files/36def700-c855-11ec-9ccb-d06024f8c31f)
 (Flag output omitted.) 
+_______________________________________________________________________________________
 
 Try out this challenge for yourself at www.tryhackme.com/rooms/lian_yu!
 
