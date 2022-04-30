@@ -80,9 +80,14 @@ However, I recalled seeing an FTP server directory called .other_user. I went ba
 
 Let's try logging as slade:
 ![image](https://media.github.tamu.edu/user/17583/files/0185d980-c854-11ec-8407-20255418b4e7)
-(user.txt flag output omitted.)
 
-Our next step is privilege escalation.
+Now that I was in, it was only a matter of finding the file ```user.txt```, which happened to be in the current directory:
+```
+$ cat user.txt
+(user.txt flag output omitted.)
+```
+
+Our next step now is privilege escalation.
 ![image](https://media.github.tamu.edu/user/17583/files/8f61c480-c854-11ec-8ad6-1f2289c478a0)
 Pkexec seems to be a vulnerability that allows users to run commands as root without sudo - which means not needing a password. A quick look at the manual and I was able to successfully pwn the machine.
 
