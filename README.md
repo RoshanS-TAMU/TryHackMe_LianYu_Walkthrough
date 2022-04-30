@@ -8,6 +8,11 @@ The obejctives for this room were as follows:
 4. what is the file name with SSH password?
 5. user.txt
 6. root.txt
+
+Tools used:
+1. Enumeration: Nmap, Gobuster
+2. Cryptography: Stegcracker, Base64, Base58
+3. Privilege Escalation: Pkexec
 _______________________________________________________________________________________
 
 I start as always with scanning and enumeration:
