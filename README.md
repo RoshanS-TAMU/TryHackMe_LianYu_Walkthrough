@@ -82,6 +82,7 @@ Let's try logging as slade:
 ![image](https://media.github.tamu.edu/user/17583/files/0185d980-c854-11ec-8407-20255418b4e7)
 (user.txt flag output omitted.)
 
+Our next step is privilege escalation.
 ![image](https://media.github.tamu.edu/user/17583/files/8f61c480-c854-11ec-8ad6-1f2289c478a0)
 Pkexec seems to be a vulnerability that allows users to run commands as root without sudo - which means not needing a password. A quick look at the manual and I was able to successfully pwn the machine.
 
